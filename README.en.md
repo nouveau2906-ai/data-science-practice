@@ -186,9 +186,13 @@ together, and that we can connect to `web`.
 Note: the `web` service should be exposed.
 
 
-## Exercise 3: Kubernetes
+## Exercise 3: Play With Docker Compose
 
-We want to deploy wordsmith on Kubernetes, and connect to the web interface from the outside.
+- create a volume that allows the modification the static website data
+- verify that the database contains all the data
+- expose the database also and connect externally
+
+### Utils
 
 We will need to use images hosted on a registry. For our convenience, the images are available on:
 
